@@ -1,6 +1,7 @@
 require "capybara"
 require "capybara/cucumber"
 require "selenium-webdriver"
+require 'webdrivers'
 
 case ENV["BROWSER"]
 when "firefox"
